@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  margin: 2rem;
+  font-family: 'Arial', sans-serif;
+}
+
+h1 {
+  color: #c0392b; /* Darker red color for heading */
+  margin-bottom: 1rem;
+}
+
+h2 {
+  color: #c0392b; /* Darker red color for subheading */
+  margin-bottom: 0.5rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #c0392b; /* Darker red color for label */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #000; /* Black border for input */
+  border-radius: 4px;
+}
+
+button {
+  background-color: #c0392b; /* Darker red background for button */
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+button:hover {
+  background-color: #a93226; /* Darker red on hover */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5rem 0;
+  color: #c0392b; /* Darker red color for task item text */
+}
+
+input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+
+/* Styles for Completed Tasks */
+.Completed-Tasks {
+  background-color: #f2dede;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.Completed-Tasks h2 {
+  color: #c0392b; /* Darker red color for Completed Tasks heading */
+  margin-bottom: 0.5rem;
+}
