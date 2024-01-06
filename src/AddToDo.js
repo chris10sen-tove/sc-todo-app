@@ -16,13 +16,14 @@ function AddToDo({ addToDo }) {
     <form onSubmit={handleSubmit}>
       <label>
         Add a new task:
+      </label>
         <input
+          aria-label="Type the task you want to add"
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
           placeholder="Type your task here"
         />
-      </label>
       <button type="submit">Add</button>
     </form>
   );
