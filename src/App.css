@@ -21,10 +21,12 @@ label {
 }
 
 input[type="text"] {
-  width: 100%;
+  display: block;
+  margin: 0 auto; /* Set left and right margins to auto */
+  width: 30%;
   padding: 0.5rem;
   margin-bottom: 1rem;
-  border: 1px solid #000; /* Black border for input */
+  border: 1px solid #000;
   border-radius: 4px;
 }
 
