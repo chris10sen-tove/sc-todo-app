@@ -3,7 +3,7 @@
 ## Deployed Application
 https://sc-todo-app-d50a7dc32e35.herokuapp.com/
 
-## Credits
+## Application Details
 Built by [chris10sen-tove](https://github.com/chris10sen-tove) using React.js.
 
 This project was bootstrapped with [webpack](https://webpack.js.org/).
